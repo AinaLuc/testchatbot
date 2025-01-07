@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <CreateAssistant />
+    <h1>Create Your AI Assistant</h1>
+    <create-assistant />
   </div>
 </template>
 
@@ -15,5 +16,10 @@ export default {
 </script>
 
 <style>
-/* Add global styles if needed */
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>
